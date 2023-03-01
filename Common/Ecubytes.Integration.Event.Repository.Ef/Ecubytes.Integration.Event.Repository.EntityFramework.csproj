@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.Data.EntityFramework" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.Integration.Event" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.10" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.Integration.Event.Repository.EntityFramework</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;Integration;Events</PackageTags>
+    <Description>
+      Repository EntityFramework for Integration Events
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

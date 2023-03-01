@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.Integration.Messaging" Version="1.0.0" />
+    <PackageReference Include="MassTransit.AspNetCore" Version="7.2.4" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.Extensions.MassTransit</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;MassTransit;Extensions;</PackageTags>
+    <Description>
+      MassTransit Extensions
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

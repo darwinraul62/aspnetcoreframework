@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.AspNetCore.Http" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="5.0.1" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.Sdk.Identity</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;Sdk;Identity</PackageTags>
+    <Description>
+      SDK for Ecubytes Identity Service
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

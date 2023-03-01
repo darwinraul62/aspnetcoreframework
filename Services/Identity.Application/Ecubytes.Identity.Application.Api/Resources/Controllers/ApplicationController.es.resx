@@ -1,0 +1,20 @@
+<root>
+    <data name="Message.ApplicationInsertError" xml:space="preserve">
+        <value>No se pudo crear la Aplicación</value>
+    </data>
+    <data name="Message.ApplicationInsertSuccess" xml:space="preserve">
+        <value>La Aplicación fue creada exitosamente</value>
+    </data>
+    <data name="Message.ApplicationUpdateError" xml:space="preserve">
+        <value>No se pudo actualizar la Aplicación</value>
+    </data>
+    <data name="Message.ApplicationUpdateSuccess" xml:space="preserve">
+        <value>La Aplicación fue actualizada exitosamente</value>
+    </data>
+    <data name="Message.ApplicationNameAlreadyExists" xml:space="preserve">
+        <value>Ya existe otra aplicación con el mismo nombre</value>
+    </data>
+     <data name="Message.ApplicationIdNotExists" xml:space="preserve">
+        <value>El id de Aplicación no existe</value>
+    </data>
+</root>

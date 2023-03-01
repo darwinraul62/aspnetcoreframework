@@ -1,0 +1,41 @@
+<root>
+    <data name="Message.RoleInsertError" xml:space="preserve">
+        <value>No se pudo crear el Rol</value>
+    </data>
+    <data name="Message.RoleDeleteError" xml:space="preserve">
+        <value>No se pudo eliminar el Rol</value>
+    </data>
+    <data name="Message.RoleInsertSuccess" xml:space="preserve">
+        <value>El Rol fue creado exitosamente</value>
+    </data>
+    <data name="Message.RoleUpdateSuccess" xml:space="preserve">
+        <value>El Rol fue actualizado exitosamente</value>
+    </data>   
+    <data name="Message.RoleUpdateError" xml:space="preserve">
+        <value>El Rol no pudo ser actualizado</value>
+    </data>    
+    <data name="Message.RoleNameAlreadyExists" xml:space="preserve">
+        <value>Ya existe un Rol con el mismo nombre</value>
+    </data>
+     <data name="Message.RoleCodeNameAlreadyExists" xml:space="preserve">
+        <value>El nombre código esta siendo utilizado por otro Rol</value>
+    </data>
+     <data name="Message.InvalidApplication" xml:space="preserve">
+        <value>Aplicación Inválida (ApplicationId)</value>
+    </data>
+    <data name="Message.RoleDeleteSuccess" xml:space="preserve">
+        <value>El Rol fue eliminado correctamente</value>
+    </data>
+    <data name="Message.RoleNotExists" xml:space="preserve">
+        <value>Rol no existe</value>
+    </data>
+    <data name="Field.Name" xml:space="preserve">
+        <value>Nombre</value>
+    </data>
+    <data name="Field.CodeName" xml:space="preserve">
+        <value>Nombre Código</value>
+    </data>
+    <data name="Field.RoleId" xml:space="preserve">
+        <value>Rol ID</value>
+    </data>
+</root>

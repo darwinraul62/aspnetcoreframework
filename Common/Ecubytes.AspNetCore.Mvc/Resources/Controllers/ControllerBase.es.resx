@@ -1,0 +1,23 @@
+<root>
+    <data name="Message.DefaultSuccess" xml:space="preserve">
+        <value>Su solicitud fue realizada con éxíto</value>
+    </data>    
+    <data name="Message.TitleDefaultSuccess" xml:space="preserve">
+        <value>Operación Exitosa</value>
+    </data>
+    <data name="Message.DefaultError" xml:space="preserve">
+        <value>Lo sentimos, ocurrió un problema al realizar su solicitud</value>
+    </data>
+    <data name="Message.TitleDefaultError" xml:space="preserve">
+        <value>Ha ocurrido un problema</value>
+    </data>
+    <data name="The requested resource was not found" xml:space="preserve">
+        <value>No se encontró el recurso solicitado</value>
+    </data>
+    <data name="The value specified for {0}{1} is invalid" xml:space="preserve">
+        <value>El valor especificado para {0} {1} es inválido</value>
+    </data>
+     <data name="Message.RequiredField" xml:space="preserve">
+        <value>El valor para {0}{1} es requerido</value>
+    </data>
+</root>

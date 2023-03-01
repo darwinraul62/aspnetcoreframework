@@ -1,0 +1,17 @@
+<root>        
+    <data name="User Group created successfully" xml:space="preserve">
+        <value>El Grupo fue creado exitosamente</value>
+    </data>
+    <data name="User Group updated successfully" xml:space="preserve">
+        <value>El Grupo fue actualizado exitosamente</value>
+    </data>
+     <data name="User Group was Deleted" xml:space="preserve">
+        <value>El Grupo fue eliminado</value>
+    </data>
+    <data name="Role added to user group" xml:space="preserve">
+        <value>Rol agregado al grupo de usuarios</value>
+    </data>    
+    <data name="Role was removed from user group" xml:space="preserve">
+        <value>Se eliminó el rol del grupo de usuarios </value>
+    </data>
+</root>

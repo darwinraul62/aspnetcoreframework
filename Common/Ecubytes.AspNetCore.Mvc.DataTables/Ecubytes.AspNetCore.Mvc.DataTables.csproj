@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.AspNetCore.Mvc" Version="1.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>Ecubytes.AspNetCore.Mvc.DataTables</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;AspNetCore;Mvc;DataTables</PackageTags>
+    <Description>
+      DataTable plugin extension for server side
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.AspNetCore.Mvc.QueryRequestBinding" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.AspNetCore.WebUtilities</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;AspNetCore;Web;Utilities</PackageTags>
+    <Description>
+      Provides functional features for AspNetCore
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

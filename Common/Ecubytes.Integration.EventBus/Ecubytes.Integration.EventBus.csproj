@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Ecubytes.Integration.Queue\Ecubytes.Integration.Queue.csproj" />
+    <ProjectReference Include="..\Ecubytes.Integration.Event\Ecubytes.Integration.Event.csproj" />
+  </ItemGroup>
+
+</Project>

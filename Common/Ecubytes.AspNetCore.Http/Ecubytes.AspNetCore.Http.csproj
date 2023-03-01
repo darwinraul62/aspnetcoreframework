@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.AspNetCore.Authentication" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.AspNetCore.WebUtilities" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.Configuration" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.JsonUtilities" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="5.0.1" />
+    <PackageReference Include="Polly.Contrib.WaitAndRetry" Version="1.1.1" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.AspNetCore.Http</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;AspNetCore;Http</PackageTags>
+    <Description>
+      Provide Basic Common Services for AspNetCore Http
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

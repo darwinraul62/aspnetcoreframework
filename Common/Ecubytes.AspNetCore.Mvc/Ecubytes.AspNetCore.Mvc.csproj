@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.AspNetCore" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.AspNetCore.Mvc.QueryRequestBinding" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.Configuration" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.Extensions.Mvc.Razor" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.JsonUtilities" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.AspNetCore.Mvc</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;AspNetCore;Mvc</PackageTags>
+    <Description>
+      Provide Basic Common Services for AspNetCore Mvc
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

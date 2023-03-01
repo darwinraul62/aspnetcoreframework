@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Ecubytes.AspNetCore\Ecubytes.AspNetCore.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.DependencyInjection\Ecubytes.DependencyInjection.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.AspNetCore.Authentication\Ecubytes.AspNetCore.Authentication.csproj" />
+    <ProjectReference Include="..\Ecubytes.Identity.Application.Infrastructure\Ecubytes.Identity.Application.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.AspNetCore.Authorization\Ecubytes.AspNetCore.Authorization.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.AspNetCore.SwaggerGen\Ecubytes.AspNetCore.SwaggerGen.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Extensions.Logging.Infrastructure\Ecubytes.Extensions.Logging.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Extensions.Logging\Ecubytes.Extensions.Logging.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Aws.Sqs\Ecubytes.Aws.Sqs.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Integration.Queue\Ecubytes.Integration.Queue.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Integration.EventBus\Ecubytes.Integration.EventBus.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Integration.Event\Ecubytes.Integration.Event.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Cryptography\Ecubytes.Cryptography.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.AspNetCore.Mvc\Ecubytes.AspNetCore.Mvc.csproj" />
+  </ItemGroup>
+
+</Project>

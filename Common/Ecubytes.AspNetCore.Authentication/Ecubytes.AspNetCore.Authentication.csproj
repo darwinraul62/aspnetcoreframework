@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.AspNetCore" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="5.0.10" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.AspNetCore.Authentication</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;AspNetCore;Authentication</PackageTags>
+    <Description>
+      Provide Basic Common Services for AspNetCore Authentication
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

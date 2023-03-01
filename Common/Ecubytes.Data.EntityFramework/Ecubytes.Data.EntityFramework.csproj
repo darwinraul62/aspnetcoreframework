@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.Extensions.Linq" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.4" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.14" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.Data.EntityFramework</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;Data;Entity Framework</PackageTags>
+    <Description>
+      Common Features for Entity Framework Core
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

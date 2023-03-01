@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Ecubytes.Data</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;Data;Messages</PackageTags>
+    <Description>
+      Common Class for Ecubytes Framework
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,47 @@
+﻿@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@if (User.Identity.IsAuthenticated)
+{
+    var authenticationResult = await Context.AuthenticateAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+    var issued = authenticationResult.Properties.Items[".issued"];
+    var expires = authenticationResult.Properties.Items[".expires"];
+    <div>
+        <p>You are signed in as:</p>
+        <h2>@User.Identity.Name</h2>
+        <hr/>
+        <dl>
+            <dt>Issued</dt>
+            <dd>@issued</dd>
+            <dt>Expires</dt>
+            <dd>@expires</dd>
+        </dl>
+        <hr/>
+        @foreach (var claim in User.Claims)
+        {
+            <p>@claim.Type @claim.Value @claim.ValueType</p>
+        }
+        <h2>Identities</h2>
+        @foreach (var identity in User.Identities)
+        {
+            <p>@identity.Name @identity.AuthenticationType @identity.Label</p>
+        }
+        <p><a class="btn btn-dark" asp-controller="Account" asp-action="Logout">Sign out</a></p>
+    </div>
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <div>
+        <p>You are not signed in</p>
+        <p><a class="btn btn-sm btn-dark" asp-controller="Account" asp-action="Login">Sign in</a></p>
+    </div>
+}

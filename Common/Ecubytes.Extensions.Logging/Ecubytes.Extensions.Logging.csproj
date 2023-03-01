@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.Data" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.DependencyInjection" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Nlog" Version="4.7.11" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.Extensions.Logging</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;Logging;Extensions</PackageTags>
+    <Description>
+      Provide Logging Services
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Data\Ecubytes.Data.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Data.EntityFramework\Ecubytes.Data.EntityFramework.csproj" />
+    <ProjectReference Include="..\Ecubytes.Identity.Application.Data\Ecubytes.Identity.Application.Data.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Extensions.Logging\Ecubytes.Extensions.Logging.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Extensions.Logging.Infrastructure\Ecubytes.Extensions.Logging.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Integration.Event\Ecubytes.Integration.Event.csproj" />
+    <ProjectReference Include="..\..\..\Common\Ecubytes.Integration.Event.Repository.Ef\Ecubytes.Integration.Event.Repository.EntityFramework.csproj" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.7" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="5.0.9" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>Ecubytes.AspNetCore.Authorization</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;AspNetCore;Authorization</PackageTags>
+    <Description>
+      Provide Basic Common Services for AspNetCore Authorization
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+</Project>

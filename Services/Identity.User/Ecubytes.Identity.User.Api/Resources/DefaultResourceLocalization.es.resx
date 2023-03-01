@@ -1,0 +1,11 @@
+<root>    
+     <data name="Tenant" xml:space="preserve">
+        <value>Inquilino</value>
+    </data>
+    <data name="Role" xml:space="preserve">
+        <value>Rol</value>
+    </data>
+    <data name="User Group" xml:space="preserve">
+        <value>Grupo de Usuario</value>
+    </data>
+</root>

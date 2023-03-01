@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.Data" Version="1.0.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.2.14" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.Extensions.Linq</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;Data;Linq</PackageTags>
+    <Description>
+      Provides functional features for Linq 
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

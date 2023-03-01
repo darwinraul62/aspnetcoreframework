@@ -1,0 +1,8 @@
+<root>    
+    <data name="User is not allowed to login" xml:space="preserve">
+        <value>Usuario no authorizado para el inicio de sesión</value>
+    </data>
+    <data name="The username and / or password are incorrect" xml:space="preserve">
+        <value>El usuario y/o password son incorrectos</value>
+    </data>    
+</root>    

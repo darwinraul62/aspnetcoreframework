@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.Data" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.12" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.JsonUtilities</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;Data;Messages</PackageTags>
+    <Description>
+      Contains utility functions for working with Json
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

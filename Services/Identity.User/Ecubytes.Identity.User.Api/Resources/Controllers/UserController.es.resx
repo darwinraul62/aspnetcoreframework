@@ -1,0 +1,38 @@
+<root>    
+    <data name="The LogonName already exists" xml:space="preserve">
+        <value>El Nombre de Usuario ya existe</value>
+    </data>
+    <data name="The Email already exists" xml:space="preserve">
+        <value>The Email ya existe</value>
+    </data>
+    <data name="The UserId already exists" xml:space="preserve">
+        <value>El Id ya existe</value>
+    </data>    
+    <data name="User created successfully" xml:space="preserve">
+        <value>El fue creado exitosamente</value>
+    </data>
+    <data name="User could not be created" xml:space="preserve">
+        <value>El Usuario no pudo ser creado</value>
+    </data>
+    <data name="User could not be updated" xml:space="preserve">
+        <value>El Usuario no pudo ser actualizado</value>
+    </data>
+    <data name="User updated successfully" xml:space="preserve">
+        <value>El Usuario fue actualizado exitosamente</value>
+    </data>
+    <data name="User was Deleted" xml:space="preserve">
+        <value>El Usuario fue eliminado</value>
+    </data>
+    <data name="Group added to user" xml:space="preserve">
+        <value>Se agregó el Grupo al Usuario</value>
+    </data>
+    <data name="Group was removed from user" xml:space="preserve">
+        <value>Se quitó el Grupo del Usuario</value>
+    </data>     
+    <data name="Role added to user" xml:space="preserve">
+        <value>Se agregó el Rol al Usuario</value>
+    </data>
+    <data name="Role was removed from user" xml:space="preserve">
+        <value>Se quitó el Rol del Usuario</value>
+    </data>         
+</root>

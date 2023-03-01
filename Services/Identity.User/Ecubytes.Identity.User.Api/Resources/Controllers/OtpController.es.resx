@@ -1,0 +1,11 @@
+<root>    
+    <data name="The password is invalid" xml:space="preserve">
+        <value>El Password es inválido</value>
+    </data>
+    <data name="The password has expired" xml:space="preserve">
+        <value>El Password es inválido</value>
+    </data>
+    <data name="Invalid User" xml:space="preserve">
+        <value>Usuario Inválido</value>
+    </data>    
+</root>    

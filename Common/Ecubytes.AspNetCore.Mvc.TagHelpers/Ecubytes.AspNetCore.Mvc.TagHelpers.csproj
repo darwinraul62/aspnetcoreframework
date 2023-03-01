@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.Data" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor" Version="2.2.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.AspNetCore.Mvc.TagHelpers</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;AspNetCore;Mvc;TagHelpers</PackageTags>
+    <Description>
+      Common TagHelpers Utilities
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

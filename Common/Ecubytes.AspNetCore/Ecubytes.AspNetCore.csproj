@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Ecubytes.Data" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.DependencyInjection" Version="1.0.0" />
+    <PackageReference Include="Ecubytes.Extensions.Logging" Version="1.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection" Version="5.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Ecubytes.AspNetCore</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Darwin Almeida</Authors>
+    <Company>Ecubytes</Company>
+    <PackageTags>Ecubytes;AspNetCore;</PackageTags>
+    <Description>
+      Provide Basic Common Services for AspNetCore
+    </Description>
+    <IsPackable>true</IsPackable>
+  </PropertyGroup>
+</Project>

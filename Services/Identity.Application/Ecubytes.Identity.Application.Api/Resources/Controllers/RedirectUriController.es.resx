@@ -1,0 +1,23 @@
+<root>
+    <data name="Message.RedirectUriInsertError" xml:space="preserve">
+        <value>No se pudo registrar la URI de Redirección</value>
+    </data>
+    <data name="Message.RedirectUriDeleteError" xml:space="preserve">
+        <value>No se pudo eliminar la URI de Redirección</value>
+    </data>
+    <data name="Message.RedirectUriInsertSuccess" xml:space="preserve">
+        <value>La URI fue registrada exitosamente</value>
+    </data>    
+    <data name="Message.RedirectUriAlreadyExists" xml:space="preserve">
+        <value>Ya ha registrado previamente esta URI</value>
+    </data>
+     <data name="Message.InvalidApplication" xml:space="preserve">
+        <value>Aplicación Inválida (ApplicationId)</value>
+    </data>
+    <data name="Message.RedirectUriDeleteSuccess" xml:space="preserve">
+        <value>La URI fue eliminada correctamente</value>
+    </data>
+    <data name="Message.RedirectUriNotExists" xml:space="preserve">
+        <value>URI no existe</value>
+    </data>    
+</root>

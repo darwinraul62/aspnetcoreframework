@@ -1,0 +1,184 @@
+{
+  "solution": "Identity.User.Services.Full.sln",
+  "mappings": {
+    "Ecubytes.AspNetCore": "../../Common/Ecubytes.AspNetCore/Ecubytes.AspNetCore.csproj",
+    "Ecubytes.AspNetCore.Authentication": "../../Common/Ecubytes.AspNetCore.Authentication/Ecubytes.AspNetCore.Authentication.csproj",
+    "Ecubytes.Data": "../../Common/Ecubytes.Data/Ecubytes.Data.csproj",
+    "Ecubytes.Data.EntityFramework": "../../Common/Ecubytes.Data.EntityFramework/Ecubytes.Data.EntityFramework.csproj",
+    "Ecubytes.DependencyInjection": "../../Common/Ecubytes.DependencyInjection/Ecubytes.DependencyInjection.csproj",
+    "Ecubytes.Extensions.Logging": "../../Common/Ecubytes.Extensions.Logging/Ecubytes.Extensions.Logging.csproj",
+    "Ecubytes.AspNetCore.Authorization": "../../Common/Ecubytes.AspNetCore.Authorization/Ecubytes.AspNetCore.Authorization.csproj",
+    "Ecubytes.AspNetCore.SwaggerGen": "../../Common/Ecubytes.AspNetCore.SwaggerGen/Ecubytes.AspNetCore.SwaggerGen.csproj",
+    "Ecubytes.Integration.Event": "../../Common/Ecubytes.Integration.Event/Ecubytes.Integration.Event.csproj",
+    "Ecubytes.Integration.Event.Repository.EntityFramework": "../../Common/Ecubytes.Integration.Event.Repository.Ef/Ecubytes.Integration.Event.Repository.EntityFramework.csproj",
+    "Ecubytes.Cryptography": "../../Common/Ecubytes.Cryptography/Ecubytes.Cryptography.csproj",
+    "Ecubytes.Identity.User.Api": "Ecubytes.Identity.User.Api/Ecubytes.Identity.User.Api.csproj",
+    "Ecubytes.Identity.User.Infrastructure": "Ecubytes.Identity.User.Infrastructure/Ecubytes.Identity.User.Infrastructure.csproj",
+    "Ecubytes.Identity.User.Data": "Ecubytes.Identity.User.Data/Ecubytes.Identity.User.Data.csproj",
+    "Ecubytes.Extensions.Logging.Repository.EntityFramework": "../../Common/Ecubytes.Extensions.Logging.Repository.Ef/Ecubytes.Extensions.Logging.Repository.EntityFramework.csproj",
+    "Ecubytes.AspNetCore.Mvc": "../../Common/Ecubytes.AspNetCore.Mvc/Ecubytes.AspNetCore.Mvc.csproj",
+    "Ecubytes.JsonUtilities": "../../Common/Ecubytes.JsonUtilities/Ecubytes.JsonUtilities.csproj",
+    "Ecubytes.Integration.Messaging": "../../Common/Ecubytes.Integration.Messaging/Ecubytes.Integration.Messaging.csproj",
+    "Ecubytes.Extensions.MassTransit": "../../Common/Ecubytes.Extensions.MassTransit/Ecubytes.Extensions.MassTransit.csproj",
+    "Ecubytes.Extensions.MassTransit.AwsSqs": "../../Common/Ecubytes.Extensions.MassTransit.AwsSqs/Ecubytes.Extensions.MassTransit.AwsSqs.csproj",
+    "Ecubytes.Extensions.Linq": "../../Common/Ecubytes.Extensions.Linq/Ecubytes.Extensions.Linq.csproj",
+    "Ecubytes.AspNetCore.WebUtilities": "../../Common/Ecubytes.AspNetCore.WebUtilities/Ecubytes.AspNetCore.WebUtilities.csproj",
+    "Ecubytes.AspNetCore.Mvc.QueryRequestBinding": "../../Common/Ecubytes.AspNetCore.Mvc.QueryRequestBinding/Ecubytes.AspNetCore.Mvc.QueryRequestBinding.csproj"
+  },
+  "restore": [
+    {
+      "name": "Ecubytes.Data.EntityFramework",
+      "packages": [
+        {
+          "packageName": "Ecubytes.Extensions.Linq",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Integration.Event.Repository.EntityFramework",
+      "packages": [
+        {
+          "packageName": "Ecubytes.Data.EntityFramework",
+          "version": "1.0.0"
+        },
+        {
+          "packageName": "Ecubytes.Integration.Event",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Identity.User.Api",
+      "packages": [
+        {
+          "packageName": "Ecubytes.AspNetCore.Authentication",
+          "version": "1.0.0"
+        },
+        {
+          "packageName": "Ecubytes.DependencyInjection",
+          "version": "1.0.0"
+        },
+        {
+          "packageName": "Ecubytes.AspNetCore.Authorization",
+          "version": "1.0.0"
+        },
+        {
+          "packageName": "Ecubytes.AspNetCore.SwaggerGen",
+          "version": "1.0.0"
+        },
+        {
+          "packageName": "Ecubytes.Cryptography",
+          "version": "1.0.0"
+        },
+        {
+          "packageName": "Ecubytes.AspNetCore.Mvc",
+          "version": "1.0.1"
+        },
+        {
+          "packageName": "Ecubytes.Extensions.MassTransit.AwsSqs",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Identity.User.Infrastructure",
+      "packages": [
+        {
+          "packageName": "Ecubytes.Integration.Event.Repository.EntityFramework",
+          "version": "1.0.0"
+        },
+        {
+          "packageName": "Ecubytes.Extensions.Logging.Repository.EntityFramework",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Identity.User.Data",
+      "packages": [
+        {
+          "packageName": "Ecubytes.Data",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Extensions.Logging.Repository.EntityFramework",
+      "packages": [
+        {
+          "packageName": "Ecubytes.Data.EntityFramework",
+          "version": "1.0.0"
+        },
+        {
+          "packageName": "Ecubytes.Extensions.Logging",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.AspNetCore.Mvc",
+      "packages": [
+        {
+          "packageName": "Ecubytes.AspNetCore.Mvc.QueryRequestBinding",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Integration.Messaging",
+      "packages": [
+        {
+          "packageName": "Ecubytes.DependencyInjection",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Extensions.MassTransit",
+      "packages": [
+        {
+          "packageName": "Ecubytes.Integration.Messaging",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Extensions.MassTransit.AwsSqs",
+      "packages": [
+        {
+          "packageName": "Ecubytes.Extensions.MassTransit",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.Extensions.Linq",
+      "packages": [
+        {
+          "packageName": "Ecubytes.Data",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.AspNetCore.WebUtilities",
+      "packages": [
+        {
+          "packageName": "Ecubytes.AspNetCore.Mvc.QueryRequestBinding",
+          "version": "1.0.0"
+        }
+      ]
+    },
+    {
+      "name": "Ecubytes.AspNetCore.Mvc.QueryRequestBinding",
+      "packages": [
+        {
+          "packageName": "Ecubytes.JsonUtilities",
+          "version": "1.0.0"
+        }
+      ]
+    }
+  ],
+  "removeProjects": false
+}
